@@ -1,7 +1,5 @@
-Used Cars Price Prediction 
+# 🚗 **`USED CARS PRICE PREDICTION`** 
 ==============================
-# `Business Problem Understanding`
-
 >**Context**
 
 Syarah is an online marketplace for buying and selling cars in Saudi Arabia ([entrepreneur](https://www.entrepreneur.com/en-ae/finance/saudi-arabia-based-online-cars-marketplace-syarah-raises/314901)). So, we can say that there are 3 parties in the business process (Sellers - Syarah - Buyers). Sellers advertise cars they want to sell through Syarah, and buyers buy used cars advertised through Syarah. 
