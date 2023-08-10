@@ -1,3 +1,4 @@
+# function to check outliers
 def checkOutlier(data, col):
     q1, q3 = data[col].quantile([0.25, 0.75])
     iqr = q3 - q1
@@ -15,3 +16,7 @@ def checkOutlier(data, col):
     totOut = lowOut + upOut
 
     return nTot, totOut
+
+# function to calculate adjusted R2
+def adj_r2(val, rowCount, featureCount):
+    return 1 - (1-val)*(rowCount-1)/(rowCount-featureCount-1)
